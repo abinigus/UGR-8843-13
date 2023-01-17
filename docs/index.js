@@ -10,9 +10,10 @@ const email = document.getElementById('email');
 const phone = document.getElementById('phone');
 const add =document.getElementById("address")
 
+
 const indiaRegex = /^\+91\d{10}$/;
 
-form.addEventListener('submit', e => {
+form.addEventListener('submit', (e) => {
     e.preventDefault();
     validateInputs();
 });
